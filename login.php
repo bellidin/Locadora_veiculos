@@ -15,6 +15,20 @@
 
     <!--css interno -->
     <style>
+        .login-container{
+            max-width: 400px;
+            margin: 100px auto;
+        }
+
+        .password-toogle{
+            position: absolute;
+            right: 15px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+        }
+    </style>
+    <style>
     </style>
 </head>
 <body class="bg-light">
