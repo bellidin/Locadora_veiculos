@@ -98,7 +98,7 @@
                                 <label for="quantidade" class="form-label">
                                     Quantidade de dias
                                 </label>
-                                <input type="number" name="dias_calculo" class="form-control">
+                                <input type="number" name="dias_calculo" class="form-control" value="1" required>
                             </div>
                         </form>
                     </div>
