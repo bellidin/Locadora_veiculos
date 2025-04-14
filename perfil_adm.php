@@ -81,7 +81,7 @@
             </div>
         </div>
         <div class="col-md-6">
-            <div class="card-h-100">
+            <div class="card h-100">
                 <div class="card-header">
                     <h4 class="mb-0">
                         Calcular a previsão de aluguel💰
@@ -154,7 +154,109 @@
                                                      </button>
 
                                                      <!-- Veículo disponível -->
-                                                    <input type="number" name="dias" class="form-control" value="1" min="1" required>
+                                                    <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                    <button class="btn btn-primary" type="submit" name="alugar">
+                                                        Alugar
+                                                    </button>    
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Moto</td>
+                                    <td>XR 300L</td>
+                                    <td>BOO0306</td>
+                                    <td>
+                                        <span class="badge bg-success">
+                                            Disponível
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="action-wrapper">
+                                            <form action="post" class="btn-group-actions">
+                                                <!-- Botão deletar (sempre disponível para 'Admin') -->
+                                                <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                    Deletar
+                                                </button>
+
+                                                <!-- Botões condicionais -->
+                                                <div class="rent-group">
+                                                    <!-- Veículo alugado -->
+                                                     <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                        Devolver
+                                                     </button>
+
+                                                     <!-- Veículo disponível -->
+                                                    <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                    <button class="btn btn-primary" type="submit" name="alugar">
+                                                        Alugar
+                                                    </button>    
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Carro</td>
+                                    <td>Brasília</td>
+                                    <td>MKY1928</td>
+                                    <td>
+                                        <span class="badge bg-warning">
+                                            Alugado
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="action-wrapper">
+                                            <form action="post" class="btn-group-actions">
+                                                <!-- Botão deletar (sempre disponível para 'Admin') -->
+                                                <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                    Deletar
+                                                </button>
+
+                                                <!-- Botões condicionais -->
+                                                <div class="rent-group">
+                                                    <!-- Veículo alugado -->
+                                                     <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                        Devolver
+                                                     </button>
+
+                                                     <!-- Veículo disponível -->
+                                                    <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
+                                                    <button class="btn btn-primary" type="submit" name="alugar">
+                                                        Alugar
+                                                    </button>    
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Caminhão</td>
+                                    <td>Scania Plus</td>
+                                    <td>SPM2002</td>
+                                    <td>
+                                        <span class="badge bg-success">
+                                            Disponível
+                                        </span>
+                                    </td>
+                                    <td>
+                                        <div class="action-wrapper">
+                                            <form action="post" class="btn-group-actions">
+                                                <!-- Botão deletar (sempre disponível para 'Admin') -->
+                                                <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                    Deletar
+                                                </button>
+
+                                                <!-- Botões condicionais -->
+                                                <div class="rent-group">
+                                                    <!-- Veículo alugado -->
+                                                     <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                        Devolver
+                                                     </button>
+
+                                                     <!-- Veículo disponível -->
+                                                    <input type="number" name="dias" class="form-control days-input" value="1" min="1" required>
                                                     <button class="btn btn-primary" type="submit" name="alugar">
                                                         Alugar
                                                     </button>    
