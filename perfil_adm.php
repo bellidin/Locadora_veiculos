@@ -140,7 +140,26 @@
                                     </td>
                                     <td>
                                         <div class="action-wrapper">
-                                            
+                                            <form action="post" class="btn-group-actions">
+                                                <!-- Botão deletar (sempre disponível para 'Admin') -->
+                                                <button class="btn btn-danger btn-sm delete-btn" type="submit" name="deletar">
+                                                    Deletar
+                                                </button>
+
+                                                <!-- Botões condicionais -->
+                                                <div class="rent-group">
+                                                    <!-- Veículo alugado -->
+                                                     <button class="btn btn-warning btn-sm" type="submit" name="devolver">
+                                                        Devolver
+                                                     </button>
+
+                                                     <!-- Veículo disponível -->
+                                                    <input type="number" name="dias" class="form-control" value="1" min="1" required>
+                                                    <button class="btn btn-primary" type="submit" name="alugar">
+                                                        Alugar
+                                                    </button>    
+                                                </div>
+                                            </form>
                                         </div>
                                     </td>
                                 </tr>
